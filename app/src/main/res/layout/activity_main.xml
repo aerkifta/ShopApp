@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:paddingTop="400dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Меню"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingBottom="24dp"
+        android:textColor="#222222"/>
+
+    <Button
+        android:id="@+id/btnOrders"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Заказы клиента"
+        android:textAllCaps="false"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#1976D2"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnPopular"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Популярные товары"
+        android:textAllCaps="false"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#388E3C"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Поиск товаров"
+        android:textAllCaps="false"
+        android:backgroundTint="#F57C00"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
